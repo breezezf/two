@@ -13,7 +13,7 @@ page = st.sidebar.radio('我的首页',['我的兴趣推荐','我的图片处理
 # st.video('视频.mp4')                          #添加视频
 
 if page == '我的兴趣推荐':
-    a = "green['电影推荐']"
+    a = ":green[电影推荐]"
     st.write(a)
     st.image('黑幕.jpg') 
     
